@@ -207,7 +207,7 @@ header {
 
 // Sections
 #about {
-    background: linear-gradient(to top, #13547a, #80d0c7); 
+    background: linear-gradient(to top, #13547a, #80d0c7);
     color: $theme-dark; 
 }
 .section-heading {
@@ -234,7 +234,7 @@ header {
         color: white;
         opacity: 0;
         display: block;
-        background: rgba( $theme-primary, .5 );
+        background: rgba( $theme-dark, .8 );
         position: absolute;
         bottom: 0;
         text-align: center;
@@ -319,6 +319,10 @@ header {
 }
 
 // Contact
+.scan {
+    background-image: url('/img/qr.png');
+    width: 50px;
+}
 #contact .fa {
     color: $theme-dark;
     font-size: 4em;
